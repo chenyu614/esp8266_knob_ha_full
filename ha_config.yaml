@@ -1,0 +1,23 @@
+mqtt:
+  light:
+    - name: "旋钮灯 1"
+      unique_id: esp_knob_light1
+      command_topic: "home/light1/brightness/set"
+      brightness_command_topic: "home/light1/brightness/set"
+      brightness_state_topic: "home/light1/brightness/get"
+      brightness_scale: 255
+      state_topic: "home/light1/status"
+      payload_on: "ON"
+      payload_off: "OFF"
+      optimistic: false
+
+    - name: "旋钮灯 2"
+      unique_id: esp_knob_light2
+      command_topic: "home/light2/brightness/set"
+      brightness_command_topic: "home/light2/brightness/set"
+      brightness_state_topic: "home/light2/brightness/get"
+      brightness_scale: 255
+      state_topic: "home/light2/status"
+      payload_on: "ON"
+      payload_off: "OFF"
+      optimistic: false
