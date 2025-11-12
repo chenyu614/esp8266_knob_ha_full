@@ -15,3 +15,10 @@
 
 ## 2. 配置 WiFi 和 MQTT
 1. 修改 `src/main.cpp` 中的 SSID、PWD、MQTT_B
+
+## 硬件列表
+esp8266开发板x1
+WH148 10K B 线性 电位器x1 或者
+（RV09 10K 微型 电位器 单圈
+）x1
+6x6mm轻触开关x1
